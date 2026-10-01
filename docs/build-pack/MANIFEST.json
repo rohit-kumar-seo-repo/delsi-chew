@@ -1,0 +1,43 @@
+{
+  "project": "Delsi Chews",
+  "purpose": "Claude implementation/build pack",
+  "source_of_truth": {
+    "live_site": "https://delsichews.com/",
+    "latest_client_label_reference": "client-label-reference/"
+  },
+  "documents": [
+    "00_CLAUDE_START_HERE.md",
+    "01_MASTER_ARCHITECTURE.md",
+    "02_SITE_MAP_AND_ROUTES.md",
+    "03_DESIGN_SYSTEM.md",
+    "04_PRODUCT_DATA_CONTRACT.md",
+    "05_BACKEND_COMMERCE_ARCHITECTURE.md",
+    "06_BUSINESS_OPERATIONS_ARCHITECTURE.md",
+    "07_INTEGRATIONS.md",
+    "08_CONTENT_SEO_ANALYTICS.md",
+    "09_SECURITY.md",
+    "10_QA_ACCEPTANCE.md",
+    "11_DEPLOYMENT_OPERATIONS.md",
+    "12_SOURCE_MIGRATION_AND_ASSET_INGESTION.md",
+    "13_AI_PRODUCT_ADVISOR.md",
+    "14_IMPLEMENTATION_PLAN.md",
+    "15_CLIENT_LABEL_AND_BRAND_REFERENCE.md",
+    "16_SOURCE_CATALOG_SEED.md",
+    "17_DATA_MODEL_OVERVIEW.md",
+    "18_CLAUDE_EXECUTION_RULES.md"
+  ],
+  "client_reference_images": [
+    "WhatsApp Image 2026-09-03 at 19.29.20.jpeg",
+    "WhatsApp Image 2026-09-04 at 11.14.01.jpeg",
+    "WhatsApp Image 2026-09-04 at 11.14.00.jpeg"
+  ],
+  "rules": [
+    "Do not invent product facts.",
+    "Preserve confirmed existing SKUs.",
+    "Use live Delsi site as current source.",
+    "Use latest client label images as packaging reference.",
+    "PostgreSQL/Medusa is transactional source of truth.",
+    "Google Sheets is optional operational/reporting layer, not order/payment/inventory authority.",
+    "Deploy incrementally using Fix -> Build -> Verify -> Deploy."
+  ]
+}
